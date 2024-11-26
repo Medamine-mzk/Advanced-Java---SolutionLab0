@@ -1,0 +1,10 @@
+Part 2: Compiling and Running the Program
+- Save the code from Part 1 in a file called LabTest.java.
+- Open the command prompt or terminal.
+- Navigate to the directory where the file is saved.
+- Use the following commands to compile and run the program:
+
+javac LabTest.java   # Compiles the Java file into bytecode
+java LabTest         # Runs the compiled bytecode
+
+- If everything is correct, you should see the output: The result is: 11.0.

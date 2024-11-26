@@ -1,4 +1,5 @@
-package part3;
+package part4;
+import java.util.Scanner;
 import java.util.Scanner;
 
 public class LabTest {
@@ -6,17 +7,14 @@ public class LabTest {
         // Create a scanner object for input
         Scanner scanner = new Scanner(System.in);
 
-        // Ask the user to input two numbers
-        System.out.print("Enter the first number: ");
-        int n1 = scanner.nextInt();
+        // Ask the user to input a number
+        System.out.print("Enter a number: ");
+        float number = scanner.nextFloat();
 
-        System.out.print("Enter the second number: ");
-        int n2 = scanner.nextInt();
-
-        // Declare a float variable to store the sum
-        float sum = n1 + n2;
+        // Calculate the double of the number
+        float doubleValue = number * 2;
 
         // Display the result
-        System.out.println("The result is: " + sum);
+        System.out.println("The double of the number is: " + doubleValue);
     }
 }

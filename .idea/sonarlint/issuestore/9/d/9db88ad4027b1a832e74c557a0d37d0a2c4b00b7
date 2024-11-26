@@ -1,0 +1,8 @@
+
+c
+java:S2184"ACast one of the operands of this addition operation to a "float".(ª¾áÊùÿÿÿÿ8ò¯é¤³2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ÿ¿Õ¡þÿÿÿÿ8ó¯é¤³2
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(ëÚîÓþÿÿÿÿ8ˆ°é¤³2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÉãèÑÿÿÿÿÿ8‰°é¤³2
+U	java:S106"9Replace this use of System.out or System.err by a logger.(´¢÷…8‹°é¤³2

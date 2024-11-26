@@ -1,16 +1,20 @@
-package part2;
+package part3;
+import java.util.Scanner;
 
 public class LabTest {
     public static void main(String[] args) {
-        // Declare two integers n1 and n2
-        int n1 = 5;
-        int n2 = 6;
+        // Create a scanner object for input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to input two numbers
+        System.out.print("Enter the first number: ");
+        int n1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int n2 = scanner.nextInt();
 
         // Declare a float variable to store the sum
-        float sum = 0;
-
-        // Calculate the sum of n1 and n2
-        sum = n1 + n2;
+        float sum = n1 + n2;
 
         // Display the result
         System.out.println("The result is: " + sum);
